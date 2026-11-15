@@ -1,0 +1,2 @@
+﻿.gitignore:1:*.log	sample.log
+.gitignore:2:temp/	"temp\\temporary.txt"

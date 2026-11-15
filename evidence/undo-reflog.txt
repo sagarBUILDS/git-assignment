@@ -1,0 +1,10 @@
+﻿f9bed48 HEAD@{0}: commit: Add assignment documentation
+89c1924 HEAD@{1}: reset: moving to HEAD~1
+5d21e3c HEAD@{2}: commit: Minor HTML improvement
+89c1924 HEAD@{3}: commit: Add ignore rules
+8a44193 HEAD@{4}: merge feature: Fast-forward
+fbc93f0 HEAD@{5}: checkout: moving from feature to main
+8a44193 HEAD@{6}: commit: Added feature updates
+fbc93f0 HEAD@{7}: checkout: moving from main to feature
+fbc93f0 HEAD@{8}: commit: Updated index page
+0ab99bb HEAD@{9}: commit (initial): Initial project setup

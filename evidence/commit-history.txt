@@ -1,0 +1,5 @@
+﻿* f9bed48 Add assignment documentation
+* 89c1924 Add ignore rules
+* 8a44193 Added feature updates
+* fbc93f0 Updated index page
+* 0ab99bb Initial project setup
