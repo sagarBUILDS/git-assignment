@@ -1,0 +1,110 @@
+git --version
+Checks that Git is installed and displays the installed version.
+
+git config --global user.name
+Reads the configured Git author name.
+
+git config --global user.email
+Reads the configured Git author email.
+
+git init -b main
+Initializes a new repository and creates the main branch.
+
+git add index.html about.html
+Stages the initial HTML files for the first snapshot.
+
+git commit -m "Initial project setup"
+Creates the initial project commit.
+
+git add index.html
+Stages the updated index page.
+
+git commit -m "Updated index page"
+Creates a commit containing the extra index-page content.
+
+git branch feature
+Creates the feature branch.
+
+git switch feature
+Checks out the feature branch.
+
+git add about.html
+Stages the feature update to about.html.
+
+git commit -m "Added feature updates"
+Creates the feature-branch commit.
+
+git switch main
+Checks out the main branch.
+
+git merge feature
+Merges the feature branch into main.
+
+git log --oneline --graph --all
+Displays the complete commit history as a compact graph.
+
+git branch --list
+Lists the local branches and confirms that feature exists.
+
+git remote -v
+Displays the configured GitHub fetch and push URLs.
+
+git add .gitignore
+Stages the ignore rules.
+
+git commit -m "Add ignore rules"
+Commits the rules for log files and the temp directory.
+
+git status --short
+Shows the concise working-tree status.
+
+git check-ignore -v sample.log temp\temporary.txt
+Shows which .gitignore rules ignore the sample log and temporary file.
+
+git add README.md
+Stages the README used for the undo demonstration.
+
+git commit -m "Minor HTML improvement"
+Creates the commit that is later undone.
+
+git status --short --branch
+Shows the branch and working-tree state before and after the undo.
+
+git status --short
+Shows concise untracked and staged-file status for ignore verification.
+
+git reset --soft HEAD~1
+Undoes only the latest commit while keeping its changes staged and safe.
+
+git reflog --oneline -10
+Provides direct evidence of the commit and soft-reset operations.
+
+git remote add origin https://github.com/sagarBUILDS/git-assignment.git
+Connects the local repository to the public GitHub repository.
+
+git add README.md test_cases.md
+Stages the assignment README and the professional login test-case table.
+
+git commit -m "Add assignment documentation"
+Commits the README and test-case documentation.
+
+git push -u origin main
+Publishes main to GitHub and records the upstream branch.
+
+git add git_commands.txt
+Stages the complete Git command reference.
+
+git commit -m "Document Git commands"
+Commits the command reference required by the assignment.
+
+git push
+Publishes the final documentation commit to GitHub.
+
+git add assignment_report.pdf evidence generate_pdf.py
+Stages the final PDF, evidence screenshots, and its reproducible generator.
+
+git commit -m "Add final assignment report"
+Commits the final formatted PDF and supporting evidence.
+
+git push
+Publishes the final assignment report commit to GitHub.
